@@ -2,6 +2,7 @@ spark = SparkSession.builder().master("local[1]")
           .appName("SparkByExamples.com")
           .getOrCreate()
 		  
+		  
 df = spark.read.csv("/tmp/resources/zipcodes.csv")
 df.printSchema()
 
