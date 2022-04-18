@@ -1,4 +1,4 @@
 Spark Training
 
-This repository will hold all different common uses cases solved using spark
+This repository will hold common use cases solved using spark.
 
